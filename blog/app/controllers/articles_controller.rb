@@ -7,10 +7,6 @@ class ArticlesController < ApplicationController
         @article = Article.find(params[:id])
     end
     
-    def Faisal
-        
-    end 
-    
     def new
         @article = Article.new
     end
@@ -31,6 +27,4 @@ private
         params.require(:article).permit(:title, :text)
     end
     
-    def Erick
     
-    end
