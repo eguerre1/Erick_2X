@@ -1,0 +1,53 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html{
+     background-color: #4b537f;
+}
+
+
+nav{
+    background-color: #000839;
+}
+
+
+.btn:hover{
+    background-color: #ffa41b;
+    p{
+        color:#000839;
+    }
+}
+
+.left, .right{
+    float: left;
+    padding: 15px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  //overflow: hidden;
+}
+
+li{
+    float: left;
+    background-color: #ffa41b;
+    margin: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+    background-color: #46cdcf;
+}
+
