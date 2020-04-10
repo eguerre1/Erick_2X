@@ -42,7 +42,7 @@ group :test do
   gem 'cucumber'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
-  gem 'rspec-rails'
+  gem 'rspec-expectations'
   gem 'capybara'
 end
 
