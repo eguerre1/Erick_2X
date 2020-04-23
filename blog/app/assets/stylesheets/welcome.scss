@@ -1,57 +1,35 @@
-// Place all the styles related to the Welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-h1 {
-    font-size: 32px;
-    color: blue;
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-html{
-     background-color: #4b537f; 
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
 }
-
-
-nav{
-    background-color: #000839;
-}
-
-
-.btn:hover{
-    background-color: #ffa41b;
-    p{
-        color:#000839;
-    }
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
 }
 
-.left, .right{
-    float: left;
-    padding: 15px;
+.footer-padding {
+	padding-bottom: 60px;
 }
 
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  //overflow: hidden;
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
 }
 
-li{
-    float: left;
-    background-color: #ffa41b;
-    margin: 10px;
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover{
-    background-color: #46cdcf;
-}
-
