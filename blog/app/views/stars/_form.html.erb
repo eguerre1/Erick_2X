@@ -1,0 +1,11 @@
+<%= form_for([@article,@article.stars.build]) do |f| %>
+
+<p>
+    <%= f.label   "rate this article 1-5 " %><br>
+    <%= f.number_field :rating %>
+    
+</p>
+<p>
+    <%= f.submit %>
+</p>
+<% end %>

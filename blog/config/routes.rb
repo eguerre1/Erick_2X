@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   
   resources :articles do
     resources :comments
+    resources :stars
   end
   
   root 'welcome#index'
