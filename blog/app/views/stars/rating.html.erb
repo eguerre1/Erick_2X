@@ -1,0 +1,15 @@
+<p>
+    <strong>Rater:</strong>
+    <%= stars.rater %>
+</p>
+
+<p>
+    <strong>Starry:</strong>
+    <%= stars.body %>
+</p>
+
+<p>
+    <%= link_to 'Destroy Rating' , [stars.article, stars],
+                method: :delete,
+                data: { confirm: 'Are you sure?'} %>
+</p>
