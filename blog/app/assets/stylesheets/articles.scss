@@ -2,15 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-input[type = text] {
-    width: 30%;
+input[type=text]{
+    width: 50%;
     padding: 12px 12px;
     border: 2px solid #ccc;
     background-color: #f8f8f8;
 }
 
 textarea{
-    width: 50%;
+    width: 100%;
     height: 300px;
     padding: 12px 12px;
     border: 2px solid #ccc;
@@ -18,11 +18,11 @@ textarea{
     resize: none;
 }
 
-input[type=button], input[type=submit] {
-    background-color: #4CAF500;
+input[type=button],input[type=submit] {
+    background-color: #4CAF50;
     float: right;
     border: none;
-    color: white;
+    color: none;
     padding: 16px 20px;
     text-decoration: none;
     cursor: pointer;
