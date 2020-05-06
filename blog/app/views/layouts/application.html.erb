@@ -10,6 +10,12 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= render 'layouts/header' %>
   </head>
+  
+  <% flash.each do |type, msg| %>
+  <div style= "color:red; font-size:25px;">
+    <%= msg %>
+  </div>
+  <% end %>
 
   <body>
     <div class="container">
