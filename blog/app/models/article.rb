@@ -3,6 +3,7 @@ class Article < ApplicationRecord
     has_many :stars, dependent: :destroy
     
     has_many :comments, dependent: :destroy
+    has_one_attached :image
     
     validate :title_filter 
     # validates :title, presence: true, length: { minimum: 5 }

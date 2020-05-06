@@ -12,7 +12,8 @@ class StarsController < ApplicationController
         if @stars.save
             redirect_to article_path (params[:article_id])
         else
-             render new
+            redirect_to article_path (params[:article_id])
+            flash[:alert] = "COULD NOT SAVE RATING DUE TO AN ERROR"
         end
     end
     
